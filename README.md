@@ -1,4 +1,4 @@
-# Django-todo
+# Django Todo
 
 A simple todo app built with django
 
