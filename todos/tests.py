@@ -35,6 +35,3 @@ class TodoTestCase(TestCase):
         self.assertEqual(response.status_code, 302)  # Redirect status
         updated_todo = Todo.objects.get(id=self.todo.id)
         self.assertTrue(updated_todo.isCompleted)
-
-# To run the tests, you can use the following shell command:
-# python manage.py test your_app_name
