@@ -23,11 +23,13 @@ $ python manage.py makemigrations
 This will create all the migrations file (database migrations) required to run this App.
 
 Now, to apply this migrations run the following command
+
 ```bash
 $ python manage.py migrate
 ```
 
 One last step and then our todo App will be live. We need to create an admin user to run this App. On the terminal, type the following command and provide username, password and email for the admin user
+
 ```bash
 $ python manage.py createsuperuser
 ```
