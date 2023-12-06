@@ -9,8 +9,8 @@ class TodoTestCase(TestCase):
     def test_todo_str_method(self):
         self.assertEqual(str(self.todo), 'Test Todo')
 
-    def test_fake_failure(self):
-        self.assertEqual('', 'Test Todo')
+    # def test_fake_failure(self):
+    #     self.assertEqual('', 'Test Todo')
 
     def test_index_view(self):
         response = self.client.get(reverse('todos:index'))
